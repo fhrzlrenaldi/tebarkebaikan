@@ -61,7 +61,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="/home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#about" class="nav-link scrollto">About</a>
                 <a href="/penggalangan" class="nav-item nav-link">Penggalangan</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kategori</a>
@@ -148,6 +148,7 @@
 
 
     <!-- About Start -->
+    <section id="about" class="about">
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
@@ -170,6 +171,7 @@
             </div>
         </div>
     </div>
+</section><!-- End About Section -->
     <!-- About End -->
 
     <!-- Carousel Coba -->
@@ -254,6 +256,10 @@
                         <div class="p-4 text-center border border-5 border-light border-top-0">
                             <h4 class="mb-3">General Carpentry</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                              </div>
+                              <br>
                             <a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
