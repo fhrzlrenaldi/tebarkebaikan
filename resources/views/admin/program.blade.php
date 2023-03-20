@@ -120,7 +120,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link active" href="/admin">
+												<a class="menu-link" href="/admin">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -146,7 +146,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link" href="/program">
+												<a class="menu-link active" href="/program">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -175,10 +175,6 @@ License: For each use you must have a valid license purchased only from above li
 									</div>
 									<!--end:Menu item-->
 
-
-
-
-
 									<!--begin:Menu item-->
 									<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
 										<!--begin:Menu link-->
@@ -191,7 +187,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu sub-->
 										<div class="menu-sub menu-sub-dropdown px-2 py-4 w-200px w-lg-225px mh-75 overflow-auto">
 											<!--begin:Menu item-->
-											<div class="menu-item">
+											<div class="menu-item active">
 												<!--begin:Menu content-->
 												<div class="menu-content">
 													<span class="menu-section fs-5 fw-bolder ps-1 py-1">Profile Akun</span>
@@ -211,10 +207,21 @@ License: For each use you must have a valid license purchased only from above li
 												<!--end:Menu link-->
 											</div>
 											<!--end:Menu item-->
+                                            <!--begin:Menu item-->
+											<div class="menu-item">
+												<!--begin:Menu link-->
+                                                <a class="menu-link" href="#">
+													<span class="menu-bullet">
+														<span class="bullet bullet-dot"></span>
+													</span>
+													<span class="menu-title">Setting Akun</span>
+												</a>
+												<!--end:Menu link-->
+											</div>
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link" href="">
+                                                <a class="menu-link" href="#">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -381,6 +388,7 @@ License: For each use you must have a valid license purchased only from above li
 						</div>
 						<!--end::Sidebar primary-->
 
+
 						<!--begin::Sidebar secondary-->
 						<div class="app-sidebar-secondary">
 							<!--begin::Sidebar secondary wrapper-->
@@ -406,7 +414,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link active" href="/admin">
+											<a class="menu-link " href="/admin">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -430,7 +438,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/program">
+											<a class="menu-link active" href="/program">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -482,79 +490,342 @@ License: For each use you must have a valid license purchased only from above li
 
 					<!--begin::Content-->
 				<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-					<!--begin::Toolbar-->
-					<div class="toolbar d-flex flex-stack mb-3 mb-lg-5" id="kt_toolbar">
-						<!--begin::Container-->
-						<div id="kt_toolbar_container" class="container-fluid d-flex flex-stack flex-wrap">
-							<!--begin::Page title-->
-							<div class="page-title d-flex flex-column me-5 py-2">
-								<!--begin::Title-->
-								<h1 class="d-flex flex-column text-dark fw-bolder fs-1 mb-0">Dashboard</h1>
-								<!--end::Title-->
+
+                            <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+						<!--begin::Content wrapper-->
+						<div class="d-flex flex-column flex-column-fluid">
+							<!--begin::Toolbar-->
+							<div id="kt_app_toolbar" class="app-toolbar py-4 py-lg-6 mb-8 mb-lg-10" data-kt-sticky="true" data-kt-sticky-name="app-toolbar-sticky" data-kt-sticky-offset="{default: 'false', lg: '300px'}">
+								<!--begin::Toolbar container-->
+								<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack flex-wrap flex-lg-nowrap gap-4">
+									<!--begin::Toolbar wrapper-->
+									<div class="d-flex align-items-center">
+										<!--begin::Logo-->
+										<img src="assets/admin/media/logos/logo.png" class="w-40px me-5" alt="" />
+										<!--end::Logo-->
+										<!--begin::Page title-->
+										<div class="page-title py-2 py-sm-0 d-flex flex-column justify-content-center me-3">
+											<!--begin::Title-->
+											<h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0"></h1>
+											<!--end::Title-->
+											<!--begin::Breadcrumb-->
+											<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
+												<!--begin::Item-->
+												<li class="breadcrumb-item text-muted">
+													<a href="../../demo29/dist/index.html" class="text-muted text-hover-primary">Home</a>
+												</li>
+												<!--end::Item-->
+												<!--begin::Item-->
+												<li class="breadcrumb-item">
+													<span class="bullet bg-gray-400 w-5px h-2px"></span>
+												</li>
+												<!--end::Item-->
+
+												<!--begin::Item-->
+												<li class="breadcrumb-item text-muted">Program</li>
+												<!--end::Item-->
+											</ul>
+											<!--end::Breadcrumb-->
+										</div>
+										<!--end::Page title-->
+									</div>
+									<!--end::Toolbar wrapper=-->
+
+								</div>
+								<!--end::Toolbar container-->
 							</div>
-							<!--end::Page title-->
+							<!--end::Toolbar-->
+
+                            <!--begin::Content-->
+							<div id="kt_app_content" class="app-content flex-column-fluid">
+								<!--begin::Content container-->
+								<div id="kt_app_content_container" class="app-container container-xxl">
+									<!--begin::Card-->
+									<div class="card">
+										<!--begin::Card header-->
+										<div class="card-header border-0 pt-6">
+											<!--begin::Card title-->
+											<div class="card-title">
+												<!--begin::Search-->
+												<div class="d-flex align-items-center position-relative my-1">
+													<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+													<span class="svg-icon svg-icon-1 position-absolute ms-6">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
+															<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+													<input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Search user" />
+												</div>
+												<!--end::Search-->
+											</div>
+											<!--begin::Card title-->
+											<!--begin::Card toolbar-->
+											<div class="card-toolbar">
+												<!--begin::Toolbar-->
+												<div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
+													<!--begin::Filter-->
+													<button type="button" class="btn btn-light-primary me-3" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+													<!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
+													<span class="svg-icon svg-icon-2">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M19.0759 3H4.72777C3.95892 3 3.47768 3.83148 3.86067 4.49814L8.56967 12.6949C9.17923 13.7559 9.5 14.9582 9.5 16.1819V19.5072C9.5 20.2189 10.2223 20.7028 10.8805 20.432L13.8805 19.1977C14.2553 19.0435 14.5 18.6783 14.5 18.273V13.8372C14.5 12.8089 14.8171 11.8056 15.408 10.964L19.8943 4.57465C20.3596 3.912 19.8856 3 19.0759 3Z" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->Filter</button>
+													<!--begin::Menu 1-->
+													<div class="menu menu-sub menu-sub-dropdown w-300px w-md-325px" data-kt-menu="true">
+														<!--begin::Header-->
+														<div class="px-7 py-5">
+															<div class="fs-5 text-dark fw-bold">Filter Options</div>
+														</div>
+														<!--end::Header-->
+														<!--begin::Separator-->
+														<div class="separator border-gray-200"></div>
+														<!--end::Separator-->
+														<!--begin::Content-->
+														<div class="px-7 py-5" data-kt-user-table-filter="form">
+															<!--begin::Input group-->
+															<div class="mb-10">
+																<label class="form-label fs-6 fw-semibold">Pilih Kategori:</label>
+																<select class="form-select form-select-solid fw-bold" data-kt-select2="true" data-placeholder="Pilih Kategori" data-allow-clear="true" data-kt-user-table-filter="role" data-hide-search="true">
+																	<option></option>
+																	<option value="Administrator">Pendidikan</option>
+																	<option value="Analyst">Bencana Alam</option>
+																</select>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Actions-->
+															<div class="d-flex justify-content-end">
+																<button type="reset" class="btn btn-light btn-active-light-primary fw-semibold me-2 px-6" data-kt-menu-dismiss="true" data-kt-user-table-filter="reset">Cancel</button>
+																<button type="submit" class="btn btn-primary fw-semibold px-6" data-kt-menu-dismiss="true" data-kt-user-table-filter="filter">Apply</button>
+															</div>
+															<!--end::Actions-->
+														</div>
+														<!--end::Content-->
+													</div>
+													<!--end::Menu 1-->
+													<!--end::Filter-->
+													<!--begin::Export-->
+													<button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_export_users">
+													<!--begin::Svg Icon | path: icons/duotune/arrows/arr078.svg-->
+													<span class="svg-icon svg-icon-2">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect opacity="0.3" x="12.75" y="4.25" width="12" height="2" rx="1" transform="rotate(90 12.75 4.25)" fill="currentColor" />
+															<path d="M12.0573 6.11875L13.5203 7.87435C13.9121 8.34457 14.6232 8.37683 15.056 7.94401C15.4457 7.5543 15.4641 6.92836 15.0979 6.51643L12.4974 3.59084C12.0996 3.14332 11.4004 3.14332 11.0026 3.59084L8.40206 6.51643C8.0359 6.92836 8.0543 7.5543 8.44401 7.94401C8.87683 8.37683 9.58785 8.34458 9.9797 7.87435L11.4427 6.11875C11.6026 5.92684 11.8974 5.92684 12.0573 6.11875Z" fill="currentColor" />
+															<path opacity="0.3" d="M18.75 8.25H17.75C17.1977 8.25 16.75 8.69772 16.75 9.25C16.75 9.80228 17.1977 10.25 17.75 10.25C18.3023 10.25 18.75 10.6977 18.75 11.25V18.25C18.75 18.8023 18.3023 19.25 17.75 19.25H5.75C5.19772 19.25 4.75 18.8023 4.75 18.25V11.25C4.75 10.6977 5.19771 10.25 5.75 10.25C6.30229 10.25 6.75 9.80228 6.75 9.25C6.75 8.69772 6.30229 8.25 5.75 8.25H4.75C3.64543 8.25 2.75 9.14543 2.75 10.25V19.25C2.75 20.3546 3.64543 21.25 4.75 21.25H18.75C19.8546 21.25 20.75 20.3546 20.75 19.25V10.25C20.75 9.14543 19.8546 8.25 18.75 8.25Z" fill="currentColor" />
+														</svg>
+													</span>
+													<!--end::Svg Icon-->Export</button>
+													<!--end::Export-->
+												</div>
+												<!--end::Toolbar-->
+												<!--begin::Group actions-->
+												<div class="d-flex justify-content-end align-items-center d-none" data-kt-user-table-toolbar="selected">
+													<div class="fw-bold me-5">
+													<span class="me-2" data-kt-user-table-select="selected_count"></span>Selected</div>
+													<button type="button" class="btn btn-danger" data-kt-user-table-select="delete_selected">Delete Selected</button>
+												</div>
+												<!--end::Group actions-->
+												<!--begin::Modal - Adjust Balance-->
+												<div class="modal fade" id="kt_modal_export_users" tabindex="-1" aria-hidden="true">
+													<!--begin::Modal dialog-->
+													<div class="modal-dialog modal-dialog-centered mw-650px">
+														<!--begin::Modal content-->
+														<div class="modal-content">
+															<!--begin::Modal header-->
+															<div class="modal-header">
+																<!--begin::Modal title-->
+																<h2 class="fw-bold">Export Users</h2>
+																<!--end::Modal title-->
+																<!--begin::Close-->
+																<div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+																	<span class="svg-icon svg-icon-1">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor" />
+																			<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor" />
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon-->
+																</div>
+																<!--end::Close-->
+															</div>
+															<!--end::Modal header-->
+															<!--begin::Modal body-->
+															<div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+																<!--begin::Form-->
+																<form id="kt_modal_export_users_form" class="form" action="#">
+																	<!--begin::Input group-->
+																	<div class="fv-row mb-10">
+																		<!--begin::Label-->
+																		<label class="fs-6 fw-semibold form-label mb-2">Select Roles:</label>
+																		<!--end::Label-->
+																		<!--begin::Input-->
+																		<select name="role" data-control="select2" data-placeholder="Select a role" data-hide-search="true" class="form-select form-select-solid fw-bold">
+																			<option></option>
+																			<option value="Administrator">Administrator</option>
+																			<option value="Analyst">Analyst</option>
+																			<option value="Developer">Developer</option>
+																			<option value="Support">Support</option>
+																			<option value="Trial">Trial</option>
+																		</select>
+																		<!--end::Input-->
+																	</div>
+																	<!--end::Input group-->
+																	<!--begin::Input group-->
+																	<div class="fv-row mb-10">
+																		<!--begin::Label-->
+																		<label class="required fs-6 fw-semibold form-label mb-2">Select Export Format:</label>
+																		<!--end::Label-->
+																		<!--begin::Input-->
+																		<select name="format" data-control="select2" data-placeholder="Select a format" data-hide-search="true" class="form-select form-select-solid fw-bold">
+																			<option></option>
+																			<option value="excel">Excel</option>
+																			<option value="pdf">PDF</option>
+																			<option value="cvs">CVS</option>
+																			<option value="zip">ZIP</option>
+																		</select>
+																		<!--end::Input-->
+																	</div>
+																	<!--end::Input group-->
+																	<!--begin::Actions-->
+																	<div class="text-center">
+																		<button type="reset" class="btn btn-light me-3" data-kt-users-modal-action="cancel">Discard</button>
+																		<button type="submit" class="btn btn-primary" data-kt-users-modal-action="submit">
+																			<span class="indicator-label">Submit</span>
+																			<span class="indicator-progress">Please wait...
+																			<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+																		</button>
+																	</div>
+																	<!--end::Actions-->
+																</form>
+																<!--end::Form-->
+															</div>
+															<!--end::Modal body-->
+														</div>
+														<!--end::Modal content-->
+													</div>
+													<!--end::Modal dialog-->
+												</div>
+												<!--end::Modal - New Card-->
+											</div>
+											<!--end::Card toolbar-->
+										</div>
+										<!--end::Card header-->
+										<!--begin::Card body-->
+										<div class="card-body py-4">
+											<!--begin::Table-->
+											<table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_users">
+												<!--begin::Table head-->
+												<thead>
+													<!--begin::Table row-->
+													<tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
+														<th class="min-w-125px">No</th>
+                                                        <th class="min-w-125px">User</th>
+														<th class="min-w-125px">Program</th>
+														<th class="min-w-125px"m>Keterangan</th>
+                                                        <th class="min-w-125px">Kategori</th>
+                                                        <th class="text-end min-w-100px">Validasi</th>
+														<th class="text-end min-w-100px">Aksi</th>
+													</tr>
+													<!--end::Table row-->
+												</thead>
+												<!--end::Table head-->
+												<!--begin::Table body-->
+												<tbody class="text-gray-600 fw-semibold">
+													<!--begin::Table row-->
+													<tr>
+                                                        <!--begin::Role=-->
+														<td>1</td>
+														<!--end::Role=-->
+														<!--begin::Role=-->
+														<td>Bocil</td>
+														<!--end::Role=-->
+														<!--begin::Last login=-->
+														<td>
+															<div class="badge badge-light fw-bold">foto</div>
+														</td>
+														<!--end::Last login=-->
+														<!--begin::Joined-->
+														<td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum ex voluptatem repellat explicabo in fugiat doloribus corrupti esse, doloremque tempore alias sit perferendis totam est iusto
+                                                            labore maiores maxime nobis.</td>
+														<!--begin::Joined-->
+														<!--begin::Joined-->
+														<td>Pendidikan</td>
+														<!--begin::Joined-->
+                                                        <!--begin::Verifikasi=-->
+														<td class="text-end">
+															<a href="#" class="btn btn-light btn-active-light-primary btn-sm" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+															<span class="svg-icon svg-icon-5 m-0">
+																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
+																</svg>
+															</span>
+															<!--end::Svg Icon--></a>
+															<!--begin::Menu-->
+															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																<!--begin::Menu item-->
+																<div class="menu-item px-3">
+																	<a class="menu-link px-3">Setuju</a>
+																</div>
+																<!--end::Menu item-->
+																<!--begin::Menu item-->
+																<div class="menu-item px-3">
+																	<a class="menu-link px-3">Tidak Setuju</a>
+																</div>
+																<!--end::Menu item-->
+															</div>
+															<!--end::Menu-->
+														</td>
+														<!--end::VErifikasi=-->
+                                                        <!--begin::EDITDELETE=-->
+														<td class="text-end">
+															<a href="#" class="btn btn-light btn-active-light-primary btn-sm" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+															<span class="svg-icon svg-icon-5 m-0">
+																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor" />
+																</svg>
+															</span>
+															<!--end::Svg Icon--></a>
+															<!--begin::Menu-->
+															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																<!--begin::Menu item-->
+																<div class="menu-item px-3">
+																	<a class="menu-link px-3">Edit</a>
+																</div>
+																<!--end::Menu item-->
+																<!--begin::Menu item-->
+																<div class="menu-item px-3">
+																	<a class="menu-link px-3" data-kt-users-table-filter="delete_row">Delete</a>
+																</div>
+																<!--end::Menu item-->
+															</div>
+															<!--end::Menu-->
+														</td>
+														<!--end::EDITDELETE=-->
+													</tr>
+													<!--end::Table row-->
+												</tbody>
+												<!--end::Table body-->
+											</table>
+											<!--end::Table-->
+										</div>
+										<!--end::Card body-->
+									</div>
+									<!--end::Card-->
+								</div>
+								<!--end::Content container-->
+							</div>
+							<!--end::Content-->
 
 						</div>
-						<!--end::Container-->
+						<!--end::Content wrapper-->
 					</div>
-					<!--end::Toolbar-->
-
-                    <!--begin::Post-->
-					<div class="post d-flex flex-column-fluid" id="kt_post">
-						<!--begin::Container-->
-						<div id="kt_content_container" class="container-xxl">
-
-							<div class="card shadow-sm">
-
-								<div class="card-body">
-									<!--begin::Row-->
-									<div class="row g-0">
-										<!--begin::Col-->
-										<div class="col bg-light px-6 py-8 rounded-2 me-7 mb-7">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-											<span class="svg-icon svg-icon-3x svg-icon-primary d-block my-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M8 22C7.4 22 7 21.6 7 21V9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9V21C9 21.6 8.6 22 8 22Z" fill="black" />
-													<path opacity="0.3" d="M4 15C3.4 15 3 14.6 3 14V6C3 5.4 3.4 5 4 5C4.6 5 5 5.4 5 6V14C5 14.6 4.6 15 4 15ZM13 19V3C13 2.4 12.6 2 12 2C11.4 2 11 2.4 11 3V19C11 19.6 11.4 20 12 20C12.6 20 13 19.6 13 19ZM17 16V5C17 4.4 16.6 4 16 4C15.4 4 15 4.4 15 5V16C15 16.6 15.4 17 16 17C16.6 17 17 16.6 17 16ZM21 18V10C21 9.4 20.6 9 20 9C19.4 9 19 9.4 19 10V18C19 18.6 19.4 19 20 19C20.6 19 21 18.6 21 18Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<a href="#" class="text-black fw-bold fs-1">3</a><br>
-											<a href="#" class="text-black  fs-6">Program</a>
-										</div>
-										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col bg-light px-6 py-8 rounded-2 me-7 mb-7">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-											<span class="svg-icon svg-icon-3x svg-icon-success d-block my-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M8 22C7.4 22 7 21.6 7 21V9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9V21C9 21.6 8.6 22 8 22Z" fill="black" />
-													<path opacity="0.3" d="M4 15C3.4 15 3 14.6 3 14V6C3 5.4 3.4 5 4 5C4.6 5 5 5.4 5 6V14C5 14.6 4.6 15 4 15ZM13 19V3C13 2.4 12.6 2 12 2C11.4 2 11 2.4 11 3V19C11 19.6 11.4 20 12 20C12.6 20 13 19.6 13 19ZM17 16V5C17 4.4 16.6 4 16 4C15.4 4 15 4.4 15 5V16C15 16.6 15.4 17 16 17C16.6 17 17 16.6 17 16ZM21 18V10C21 9.4 20.6 9 20 9C19.4 9 19 9.4 19 10V18C19 18.6 19.4 19 20 19C20.6 19 21 18.6 21 18Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<a href="#" class="text-black fw-bold fs-1">2</a><br>
-											<a href="#" class="text-black  fs-6">Artikel</a>
-										</div>
-										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col bg-light px-6 py-8 rounded-2 me-7 mb-7">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-											<span class="svg-icon svg-icon-3x svg-icon-danger d-block my-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M8 22C7.4 22 7 21.6 7 21V9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9V21C9 21.6 8.6 22 8 22Z" fill="black" />
-													<path opacity="0.3" d="M4 15C3.4 15 3 14.6 3 14V6C3 5.4 3.4 5 4 5C4.6 5 5 5.4 5 6V14C5 14.6 4.6 15 4 15ZM13 19V3C13 2.4 12.6 2 12 2C11.4 2 11 2.4 11 3V19C11 19.6 11.4 20 12 20C12.6 20 13 19.6 13 19ZM17 16V5C17 4.4 16.6 4 16 4C15.4 4 15 4.4 15 5V16C15 16.6 15.4 17 16 17C16.6 17 17 16.6 17 16ZM21 18V10C21 9.4 20.6 9 20 9C19.4 9 19 9.4 19 10V18C19 18.6 19.4 19 20 19C20.6 19 21 18.6 21 18Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<a href="#" class="text-black fw-bold fs-1">1</a><br>
-											<a href="#" class="text-black  fs-6">Transaksi</a>
-										</div>
-										<!--end::Col-->
-									</div>
-									<!--end::Row-->
-                                </div>
-                            <!--end::Content-->
+					<!--end:::Main-->
 
 		<!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>

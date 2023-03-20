@@ -98,7 +98,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--begin::Menu-->
 								<div id="kt_aside_menu" class="menu menu-rounded menu-column menu-title-gray-600 menu-state-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold fs-6" data-kt-menu="true">
 									<!--begin:Menu item-->
-									<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item here show py-2">
+									<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
 										<!--begin:Menu link-->
 										<span class="menu-link menu-center">
 											<span class="menu-icon me-0">
@@ -120,7 +120,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link active" href="/admin">
+												<a class="menu-link" href="/admin">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -146,7 +146,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link" href="/program">
+												<a class="menu-link" href="../../demo29/dist/dashboards/projects.html">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -161,7 +161,7 @@ License: For each use you must have a valid license purchased only from above li
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link" href="/artikel">
+												<a class="menu-link" href="../../demo29/dist/dashboards/online-courses.html">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -180,7 +180,7 @@ License: For each use you must have a valid license purchased only from above li
 
 
 									<!--begin:Menu item-->
-									<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item py-2">
+									<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item here show py-2">
 										<!--begin:Menu link-->
 										<span class="menu-link menu-center">
 											<span class="menu-icon me-0">
@@ -191,7 +191,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu sub-->
 										<div class="menu-sub menu-sub-dropdown px-2 py-4 w-200px w-lg-225px mh-75 overflow-auto">
 											<!--begin:Menu item-->
-											<div class="menu-item">
+											<div class="menu-item active">
 												<!--begin:Menu content-->
 												<div class="menu-content">
 													<span class="menu-section fs-5 fw-bolder ps-1 py-1">Profile Akun</span>
@@ -211,10 +211,21 @@ License: For each use you must have a valid license purchased only from above li
 												<!--end:Menu link-->
 											</div>
 											<!--end:Menu item-->
+                                            <!--begin:Menu item-->
+											<div class="menu-item">
+												<!--begin:Menu link-->
+                                                <a class="menu-link active" href="#">
+													<span class="menu-bullet">
+														<span class="bullet bullet-dot"></span>
+													</span>
+													<span class="menu-title">Setting Akun</span>
+												</a>
+												<!--end:Menu link-->
+											</div>
 											<!--begin:Menu item-->
 											<div class="menu-item">
 												<!--begin:Menu link-->
-												<a class="menu-link" href="">
+                                                <a class="menu-link" href="#">
 													<span class="menu-bullet">
 														<span class="bullet bullet-dot"></span>
 													</span>
@@ -381,6 +392,7 @@ License: For each use you must have a valid license purchased only from above li
 						</div>
 						<!--end::Sidebar primary-->
 
+
 						<!--begin::Sidebar secondary-->
 						<div class="app-sidebar-secondary">
 							<!--begin::Sidebar secondary wrapper-->
@@ -398,43 +410,21 @@ License: For each use you must have a valid license purchased only from above li
 										<div class="menu-item">
 											<!--begin:Menu content-->
 											<div class="menu-content">
-												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Home</span>
+												<span class="menu-section fs-5 fw-bolder ps-1 py-1">Profile Akun</span>
 											</div>
 											<!--end:Menu content-->
 										</div>
 										<!--end:Menu item-->
-										<!--begin:Menu item-->
+
+
+                                        <!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link active" href="/admin">
+											<a class="menu-link" href="/profile">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Dashboard</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link" href="../../demo29/dist/dashboards/ecommerce.html">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Tranksaksi</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link" href="/program">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Program</span>
+												<span class="menu-title">Akun</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
@@ -443,11 +433,24 @@ License: For each use you must have a valid license purchased only from above li
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="/artikel">
+											<a class="menu-link active" href="../../demo29/dist/dashboards/online-courses.html">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Artikel</span>
+												<span class="menu-title">Setting Akun</span>
+											</a>
+											<!--end:Menu link-->
+										</div>
+										<!--end:Menu item-->
+
+                                        <!--begin:Menu item-->
+										<div class="menu-item">
+											<!--begin:Menu link-->
+											<a class="menu-link" href="../../demo29/dist/dashboards/online-courses.html">
+												<span class="menu-bullet">
+													<span class="bullet bullet-dot"></span>
+												</span>
+												<span class="menu-title">Setting Password</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
@@ -482,79 +485,348 @@ License: For each use you must have a valid license purchased only from above li
 
 					<!--begin::Content-->
 				<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-					<!--begin::Toolbar-->
-					<div class="toolbar d-flex flex-stack mb-3 mb-lg-5" id="kt_toolbar">
-						<!--begin::Container-->
-						<div id="kt_toolbar_container" class="container-fluid d-flex flex-stack flex-wrap">
-							<!--begin::Page title-->
-							<div class="page-title d-flex flex-column me-5 py-2">
-								<!--begin::Title-->
-								<h1 class="d-flex flex-column text-dark fw-bolder fs-1 mb-0">Dashboard</h1>
-								<!--end::Title-->
-							</div>
-							<!--end::Page title-->
 
-						</div>
-						<!--end::Container-->
-					</div>
-					<!--end::Toolbar-->
+                            <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+						<!--begin::Content wrapper-->
+						<div class="d-flex flex-column flex-column-fluid">
+							<!--begin::Toolbar-->
+							<div id="kt_app_toolbar" class="app-toolbar py-4 py-lg-6 mb-8 mb-lg-10" data-kt-sticky="true" data-kt-sticky-name="app-toolbar-sticky" data-kt-sticky-offset="{default: 'false', lg: '300px'}">
+								<!--begin::Toolbar container-->
+								<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack flex-wrap flex-lg-nowrap gap-4">
+									<!--begin::Toolbar wrapper-->
+									<div class="d-flex align-items-center">
+										<!--begin::Logo-->
+										<img src="assets/admin/media/logos/logo.png" class="w-40px me-5" alt="" />
+										<!--end::Logo-->
+										<!--begin::Page title-->
+										<div class="page-title py-2 py-sm-0 d-flex flex-column justify-content-center me-3">
+											<!--begin::Title-->
+											<h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0">Profile Akun</h1>
+											<!--end::Title-->
+											<!--begin::Breadcrumb-->
+											<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
+												<!--begin::Item-->
+												<li class="breadcrumb-item text-muted">
+													<a href="../../demo29/dist/index.html" class="text-muted text-hover-primary">Home</a>
+												</li>
+												<!--end::Item-->
+												<!--begin::Item-->
+												<li class="breadcrumb-item">
+													<span class="bullet bg-gray-400 w-5px h-2px"></span>
+												</li>
+												<!--end::Item-->
 
-                    <!--begin::Post-->
-					<div class="post d-flex flex-column-fluid" id="kt_post">
-						<!--begin::Container-->
-						<div id="kt_content_container" class="container-xxl">
-
-							<div class="card shadow-sm">
-
-								<div class="card-body">
-									<!--begin::Row-->
-									<div class="row g-0">
-										<!--begin::Col-->
-										<div class="col bg-light px-6 py-8 rounded-2 me-7 mb-7">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-											<span class="svg-icon svg-icon-3x svg-icon-primary d-block my-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M8 22C7.4 22 7 21.6 7 21V9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9V21C9 21.6 8.6 22 8 22Z" fill="black" />
-													<path opacity="0.3" d="M4 15C3.4 15 3 14.6 3 14V6C3 5.4 3.4 5 4 5C4.6 5 5 5.4 5 6V14C5 14.6 4.6 15 4 15ZM13 19V3C13 2.4 12.6 2 12 2C11.4 2 11 2.4 11 3V19C11 19.6 11.4 20 12 20C12.6 20 13 19.6 13 19ZM17 16V5C17 4.4 16.6 4 16 4C15.4 4 15 4.4 15 5V16C15 16.6 15.4 17 16 17C16.6 17 17 16.6 17 16ZM21 18V10C21 9.4 20.6 9 20 9C19.4 9 19 9.4 19 10V18C19 18.6 19.4 19 20 19C20.6 19 21 18.6 21 18Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<a href="#" class="text-black fw-bold fs-1">3</a><br>
-											<a href="#" class="text-black  fs-6">Program</a>
+												<!--begin::Item-->
+												<li class="breadcrumb-item text-muted">Account</li>
+												<!--end::Item-->
+											</ul>
+											<!--end::Breadcrumb-->
 										</div>
-										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col bg-light px-6 py-8 rounded-2 me-7 mb-7">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-											<span class="svg-icon svg-icon-3x svg-icon-success d-block my-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M8 22C7.4 22 7 21.6 7 21V9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9V21C9 21.6 8.6 22 8 22Z" fill="black" />
-													<path opacity="0.3" d="M4 15C3.4 15 3 14.6 3 14V6C3 5.4 3.4 5 4 5C4.6 5 5 5.4 5 6V14C5 14.6 4.6 15 4 15ZM13 19V3C13 2.4 12.6 2 12 2C11.4 2 11 2.4 11 3V19C11 19.6 11.4 20 12 20C12.6 20 13 19.6 13 19ZM17 16V5C17 4.4 16.6 4 16 4C15.4 4 15 4.4 15 5V16C15 16.6 15.4 17 16 17C16.6 17 17 16.6 17 16ZM21 18V10C21 9.4 20.6 9 20 9C19.4 9 19 9.4 19 10V18C19 18.6 19.4 19 20 19C20.6 19 21 18.6 21 18Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<a href="#" class="text-black fw-bold fs-1">2</a><br>
-											<a href="#" class="text-black  fs-6">Artikel</a>
-										</div>
-										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col bg-light px-6 py-8 rounded-2 me-7 mb-7">
-											<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
-											<span class="svg-icon svg-icon-3x svg-icon-danger d-block my-2">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M8 22C7.4 22 7 21.6 7 21V9C7 8.4 7.4 8 8 8C8.6 8 9 8.4 9 9V21C9 21.6 8.6 22 8 22Z" fill="black" />
-													<path opacity="0.3" d="M4 15C3.4 15 3 14.6 3 14V6C3 5.4 3.4 5 4 5C4.6 5 5 5.4 5 6V14C5 14.6 4.6 15 4 15ZM13 19V3C13 2.4 12.6 2 12 2C11.4 2 11 2.4 11 3V19C11 19.6 11.4 20 12 20C12.6 20 13 19.6 13 19ZM17 16V5C17 4.4 16.6 4 16 4C15.4 4 15 4.4 15 5V16C15 16.6 15.4 17 16 17C16.6 17 17 16.6 17 16ZM21 18V10C21 9.4 20.6 9 20 9C19.4 9 19 9.4 19 10V18C19 18.6 19.4 19 20 19C20.6 19 21 18.6 21 18Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-											<a href="#" class="text-black fw-bold fs-1">1</a><br>
-											<a href="#" class="text-black  fs-6">Transaksi</a>
-										</div>
-										<!--end::Col-->
+										<!--end::Page title-->
 									</div>
-									<!--end::Row-->
-                                </div>
-                            <!--end::Content-->
+									<!--end::Toolbar wrapper=-->
+
+								</div>
+								<!--end::Toolbar container-->
+							</div>
+							<!--end::Toolbar-->
+							<!--begin::Content-->
+							<div id="kt_app_content" class="app-content flex-column-fluid">
+								<!--begin::Content container-->
+								<div id="kt_app_content_container" class="app-container container-xxl">
+									<!--begin::Navbar-->
+									<div class="card mb-5 mb-xl-10">
+										<div class="card-body pt-9 pb-0">
+											<!--begin::Details-->
+											<div class="d-flex flex-wrap flex-sm-nowrap mb-3">
+												<!--begin: Pic-->
+												<div class="me-7 mb-4">
+													<div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
+														<img src="assets/admin/media/avatars/300-1.jpg" alt="image" />
+														<div class="position-absolute translate-middle bottom-0 start-100 mb-6 bg-success rounded-circle border border-4 border-body h-20px w-20px"></div>
+													</div>
+												</div>
+												<!--end::Pic-->
+												<!--begin::Info-->
+												<div class="flex-grow-1">
+													<!--begin::Title-->
+													<div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
+														<!--begin::User-->
+														<div class="d-flex flex-column">
+															<!--begin::Name-->
+															<div class="d-flex align-items-center mb-2">
+																<a class="text-gray-900 text-hover-primary fs-2 fw-bold me-1">Fharizal</a>
+															</div>
+															<!--end::Name-->
+															<!--begin::Info-->
+															<div class="d-flex flex-wrap fw-semibold fs-6 mb-4 pe-2">
+																<a href="#" class="d-flex align-items-center text-gray-400 text-hover-primary me-5 mb-2">
+																<!--begin::Svg Icon | path: icons/duotune/communication/com006.svg-->
+																<span class="svg-icon svg-icon-4 me-1">
+																	<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path opacity="0.3" d="M16.5 9C16.5 13.125 13.125 16.5 9 16.5C4.875 16.5 1.5 13.125 1.5 9C1.5 4.875 4.875 1.5 9 1.5C13.125 1.5 16.5 4.875 16.5 9Z" fill="currentColor" />
+																		<path d="M9 16.5C10.95 16.5 12.75 15.75 14.025 14.55C13.425 12.675 11.4 11.25 9 11.25C6.6 11.25 4.57499 12.675 3.97499 14.55C5.24999 15.75 7.05 16.5 9 16.5Z" fill="currentColor" />
+																		<rect x="7" y="6" width="4" height="4" rx="2" fill="currentColor" />
+																	</svg>
+																</span>
+																<!--end::Svg Icon-->Developer</a>
+																<a href="#" class="d-flex align-items-center text-gray-400 text-hover-primary mb-2">
+																<!--begin::Svg Icon | path: icons/duotune/communication/com011.svg-->
+																<span class="svg-icon svg-icon-4 me-1">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path opacity="0.3" d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19Z" fill="currentColor" />
+																		<path d="M21 5H2.99999C2.69999 5 2.49999 5.10005 2.29999 5.30005L11.2 13.3C11.7 13.7 12.4 13.7 12.8 13.3L21.7 5.30005C21.5 5.10005 21.3 5 21 5Z" fill="currentColor" />
+																	</svg>
+																</span>
+																<!--end::Svg Icon-->max@kt.com</a>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end::User-->
+													</div>
+													<!--end::Title-->
+                                            	</div>
+												<!--end::Info-->
+											</div>
+											<!--end::Details-->
+											<!--begin::Navs-->
+											<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="/profile">Profile</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="/setting">Settings Akun</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="#">Setting Password</a>
+												</li>
+												<!--end::Nav item-->
+											</ul>
+											<!--begin::Navs-->
+										</div>
+									</div>
+									<!--end::Navbar-->
+                                    <!--begin::Basic info-->
+									<div class="card mb-5 mb-xl-10">
+										<!--begin::Card header-->
+										<div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse" data-bs-target="#kt_account_profile_details" aria-expanded="true" aria-controls="kt_account_profile_details">
+											<!--begin::Card title-->
+											<div class="card-title m-0">
+												<h3 class="fw-bold m-0">Profile Details</h3>
+											</div>
+											<!--end::Card title-->
+										</div>
+										<!--begin::Card header-->
+
+										<!--begin::Content-->
+										<div id="kt_account_settings_profile_details" class="collapse show">
+											<!--begin::Form-->
+											<form id="kt_account_profile_details_form" class="form">
+												<!--begin::Card body-->
+												<div class="card-body border-top p-9">
+													<!--begin::Input group-->
+													<div class="row mb-6">
+														<!--begin::Label-->
+														<label class="col-lg-4 col-form-label fw-semibold fs-6">Avatar</label>
+														<!--end::Label-->
+														<!--begin::Col-->
+														<div class="col-lg-8">
+															<!--begin::Image input-->
+															<div class="image-input image-input-outline" data-kt-image-input="true" style="background-image: url('assets/admin/media/svg/avatars/blank.svg')">
+																<!--begin::Preview existing avatar-->
+																<div class="image-input-wrapper w-125px h-125px" style="background-image: url(assets/admin/media/avatars/300-1.jpg)"></div>
+																<!--end::Preview existing avatar-->
+																<!--begin::Label-->
+																<label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
+																	<i class="bi bi-pencil-fill fs-7"></i>
+																	<!--begin::Inputs-->
+																	<input type="file" name="avatar" accept=".png, .jpg, .jpeg" />
+																	<input type="hidden" name="avatar_remove" />
+																	<!--end::Inputs-->
+																</label>
+																<!--end::Label-->
+																<!--begin::Cancel-->
+																<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
+																	<i class="bi bi-x fs-2"></i>
+																</span>
+																<!--end::Cancel-->
+																<!--begin::Remove-->
+																<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
+																	<i class="bi bi-x fs-2"></i>
+																</span>
+																<!--end::Remove-->
+															</div>
+															<!--end::Image input-->
+															<!--begin::Hint-->
+															<div class="form-text">Allowed file types: png, jpg, jpeg.</div>
+															<!--end::Hint-->
+														</div>
+														<!--end::Col-->
+													</div>
+													<!--end::Input group-->
+													<!--begin::Input group-->
+													<div class="row mb-6">
+														<!--begin::Label-->
+														<label class="col-lg-4 col-form-label required fw-semibold fs-6">Full Name</label>
+														<!--end::Label-->
+														<!--begin::Col-->
+														<div class="col-lg-8">
+															<!--begin::Row-->
+															<div class="row">
+																<!--begin::Col-->
+																<div class="col-lg-6 fv-row">
+																	<input type="text" name="fname" class="form-control form-control-lg form-control-solid mb-3 mb-lg-0" placeholder="First name" value="Max" />
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-lg-6 fv-row">
+																	<input type="text" name="lname" class="form-control form-control-lg form-control-solid" placeholder="Last name" value="Smith" />
+																</div>
+																<!--end::Col-->
+															</div>
+															<!--end::Row-->
+														</div>
+														<!--end::Col-->
+													</div>
+													<!--end::Input group-->
+													<!--begin::Input group-->
+													<div class="row mb-6">
+														<!--begin::Label-->
+														<label class="col-lg-4 col-form-label required fw-semibold fs-6">Company</label>
+														<!--end::Label-->
+														<!--begin::Col-->
+														<div class="col-lg-8 fv-row">
+															<input type="text" name="company" class="form-control form-control-lg form-control-solid" placeholder="Company name" value="Keenthemes" />
+														</div>
+														<!--end::Col-->
+													</div>
+													<!--end::Input group-->
+													<!--begin::Input group-->
+													<div class="row mb-6">
+														<!--begin::Label-->
+														<label class="col-lg-4 col-form-label fw-semibold fs-6">
+															<span class="required">Contact Phone</span>
+															<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Phone number must be active"></i>
+														</label>
+														<!--end::Label-->
+														<!--begin::Col-->
+														<div class="col-lg-8 fv-row">
+															<input type="tel" name="phone" class="form-control form-control-lg form-control-solid" placeholder="Phone number" value="044 3276 454 935" />
+														</div>
+														<!--end::Col-->
+													</div>
+													<!--end::Input group-->
+													<!--begin::Input group-->
+													<div class="row mb-6">
+														<!--begin::Label-->
+														<label class="col-lg-4 col-form-label fw-semibold fs-6">Company Site</label>
+														<!--end::Label-->
+														<!--begin::Col-->
+														<div class="col-lg-8 fv-row">
+															<input type="text" name="website" class="form-control form-control-lg form-control-solid" placeholder="Company website" value="keenthemes.com" />
+														</div>
+														<!--end::Col-->
+													</div>
+													<!--end::Input group-->
+												</div>
+												<!--end::Card body-->
+												<!--begin::Actions-->
+												<div class="card-footer d-flex justify-content-end py-6 px-9">
+													<button type="reset" class="btn btn-light btn-active-light-primary me-2">Discard</button>
+													<button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Save Changes</button>
+												</div>
+												<!--end::Actions-->
+											</form>
+											<!--end::Form-->
+										</div>
+										<!--end::Content-->
+									</div>
+									<!--end::Basic info-->
+
+                                    <!--begin::Sign-in Method-->
+									<div class="card mb-5 mb-xl-10">
+										<!--begin::Card header-->
+										<div class="card-header border-0 cursor-pointer" role="button" data-bs-toggle="collapse" data-bs-target="#kt_account_signin_method">
+											<div class="card-title m-0">
+												<h3 class="fw-bold m-0">Sign-in Method</h3>
+											</div>
+										</div>
+										<!--end::Card header-->
+										<!--begin::Content-->
+										<div id="kt_account_settings_signin_method" class="collapse show">
+											<!--begin::Card body-->
+											<div class="card-body border-top p-9">
+
+												<!--begin::Password-->
+												<div class="d-flex flex-wrap align-items-center mb-10">
+													<!--begin::Label-->
+													<div id="kt_signin_password">
+														<div class="fs-6 fw-bold mb-1">Password</div>
+														<div class="fw-semibold text-gray-600">************</div>
+													</div>
+													<!--end::Label-->
+													<!--begin::Edit-->
+													<div id="kt_signin_password_edit" class="flex-row-fluid d-none">
+														<!--begin::Form-->
+														<form id="kt_signin_change_password" class="form" novalidate="novalidate">
+															<div class="row mb-1">
+																<div class="col-lg-4">
+																	<div class="fv-row mb-0">
+																		<label for="currentpassword" class="form-label fs-6 fw-bold mb-3">Current Password</label>
+																		<input type="password" class="form-control form-control-lg form-control-solid" name="currentpassword" id="currentpassword" />
+																	</div>
+																</div>
+																<div class="col-lg-4">
+																	<div class="fv-row mb-0">
+																		<label for="newpassword" class="form-label fs-6 fw-bold mb-3">New Password</label>
+																		<input type="password" class="form-control form-control-lg form-control-solid" name="newpassword" id="newpassword" />
+																	</div>
+																</div>
+																<div class="col-lg-4">
+																	<div class="fv-row mb-0">
+																		<label for="confirmpassword" class="form-label fs-6 fw-bold mb-3">Confirm New Password</label>
+																		<input type="password" class="form-control form-control-lg form-control-solid" name="confirmpassword" id="confirmpassword" />
+																	</div>
+																</div>
+															</div>
+															<div class="form-text mb-5">Password must be at least 8 character and contain symbols</div>
+															<div class="d-flex">
+																<button id="kt_password_submit" type="button" class="btn btn-primary me-2 px-6">Update Password</button>
+																<button id="kt_password_cancel" type="button" class="btn btn-color-gray-400 btn-active-light-primary px-6">Cancel</button>
+															</div>
+														</form>
+														<!--end::Form-->
+													</div>
+													<!--end::Edit-->
+													<!--begin::Action-->
+													<div id="kt_signin_password_button" class="ms-auto">
+														<button class="btn btn-light btn-active-light-primary">Reset Password</button>
+													</div>
+													<!--end::Action-->
+												</div>
+
+											</div>
+											<!--end::Card body-->
+										</div>
+										<!--end::Content-->
+									</div>
+									<!--end::Sign-in Method-->
+
+
+
+								</div>
+								<!--end::Content container-->
+							</div>
+							<!--end::Content-->
+						</div>
+						<!--end::Content wrapper-->
+					</div>
+					<!--end:::Main-->
 
 		<!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>

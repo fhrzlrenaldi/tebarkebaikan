@@ -25,6 +25,26 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/setting', function () {
+    return view('admin.setting');
+});
+
+Route::get('/profile', function () {
+    return view('admin.profile');
+});
+
+Route::get('/artikel', function () {
+    return view('admin.artikel');
+});
+
+Route::get('/ho', function () {
+    return view('admin.ho');
+});
+
+Route::get('/program', function () {
+    return view('admin.program');
+});
+
 Route::get('/daftar', function () {
     return view('daftar');
 });
