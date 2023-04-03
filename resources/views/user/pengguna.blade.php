@@ -70,10 +70,9 @@
                         <a href="quote.html" class="dropdown-item">Bencana Alam</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Log In</a>
+                <a href="contact.html" class="nav-item nav-link">User</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Sign Up<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>
+          
     </nav>
     <!-- Navbar End -->
 
