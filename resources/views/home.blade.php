@@ -38,36 +38,8 @@
 </head>
 
 <body>
+@include('user.partials.navbar')
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>TebarKebaikan<span>.</span></h1>
-      </a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">Tentang Kami</a></li>
-          <li class="dropdown"><a href="#"><span>Akun</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-                  <li><a href="/profiluser">Profile</a></li>
-                  <li><a href="/home">Log out</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Kontak Kami</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-    </div>
-  </header><!-- End Header -->
-  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero">
@@ -76,12 +48,12 @@
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
           <h2>OPEN DONASI SEKARANG JUGA!!<span></span></h2>
           <p>Ayo bantu saudara kita sekarang juga, berapapun nominalnya bersama kita Tebar Kebaikan.</p>
-          <div class="d-flex justify-content-center justify-content-lg-start">
+          {{-- <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started">Selanjutnya</a>
-         </div>
+         </div> --}}
         </div>
         <div class="col-lg-6 order-1 order-lg-2">
-          <img src="assets/img/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+          <img src="assets/img/logo.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
         </div>
       </div>
     </div>
@@ -117,14 +89,14 @@
           </div>
           <!--End Icon Box -->
 
-          <!-- <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-command"></i></div>
-              <p>Ingin Menggalang Dana?</P>
-              <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
+              <p>Ingin Donasi?</P>
+              <h4 class="title"><a href="" class="stretched-link">Donasi</a></h4>
             </div>
           </div>
-          End Icon Box -->
+          <!-- End Icon Box -->
 
         </div>
       </div>
@@ -501,12 +473,11 @@
 
 
     <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-posts" class="recent-posts sections-bg">
+    <section id="artikel" class="recent-posts sections-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Recent Blog Posts</h2>
-          <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+          <h2>Artikel</h2>
         </div>
 
         <div class="row gy-4">
@@ -594,84 +565,6 @@
       </div>
     </section><!-- End Recent Blog Posts Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Contact</h2>
-          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
-        </div>
-
-        <div class="row gx-lg-0 gy-4">
-
-          <div class="col-lg-4">
-
-            <div class="info-container d-flex flex-column align-items-center justify-content-center">
-              <div class="info-item d-flex">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h4>Email:</h4>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-phone flex-shrink-0"></i>
-                <div>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex">
-                <i class="bi bi-clock flex-shrink-0"></i>
-                <div>
-                  <h4>Open Hours:</h4>
-                  <p>Mon-Sat: 11AM - 23PM</p>
-                </div>
-              </div><!-- End Info Item -->
-            </div>
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -682,25 +575,18 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>Impact</span>
+            <span>Tebar Kebaikan</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-          <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
+          <p>Dengan menggunakan media aplikasi donasi berbasis website ini, penggalang dana dan donatur bisa lebih leluasa dalam kegiatan berdonasi dana    .</p>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Pages</h4>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Artikel</a></li>
+            <li><a href="#">Donasi</a></li>
           </ul>
         </div>
 
@@ -727,19 +613,6 @@
 
         </div>
 
-      </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 

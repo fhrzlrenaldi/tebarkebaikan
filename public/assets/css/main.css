@@ -10,6 +10,28 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 
+/* tabel*/
+.table-wrapper {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+/* endtabel/
+
 /* Carousel*//* Google Fonts - Poppins */
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
@@ -2291,7 +2313,7 @@ section {
 }
 
 .blog .blog-details .post-img {
-  margin: -30px -30px 20px -30px;
+  margin: 30px -30px 30px 30px;
   overflow: hidden;
   border-radius: 10px 10px 0 0;
 }

@@ -25,6 +25,14 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/password', function () {
+    return view('password');
+});
+
 Route::get('/setting', function () {
     return view('admin.setting');
 });
@@ -35,10 +43,6 @@ Route::get('/profile', function () {
 
 Route::get('/artikel', function () {
     return view('admin.artikel');
-});
-
-Route::get('/ho', function () {
-    return view('admin.ho');
 });
 
 Route::get('/program', function () {
@@ -63,4 +67,24 @@ Route::get('/admin', function () {
 
 Route::get('/pengguna', function () {
     return view('user.pengguna');
+});
+
+Route::get('/blog', function () {
+    return view('user.blog');
+});
+
+Route::get('/blogdetails', function () {
+    return view('user.blogdetails');
+});
+
+Route::get('/donasi', function () {
+    return view('user.donasi');
+});
+
+Route::get('/detaildonasi', function () {
+    return view('user.detaildonasi');
+});
+
+Route::get('/orangdonasi', function () {
+    return view('user.orangdonasi');
 });
